@@ -1,0 +1,31 @@
+{
+  "active_wal_number": 2,
+  "current_seq": 243,
+  "index_specs": {
+    "sparse": {
+      "build_params": {},
+      "field_name": "sparse",
+      "index_type": "AUTOINDEX",
+      "metric_type": "BM25",
+      "search_params": {}
+    },
+    "vector": {
+      "build_params": {},
+      "field_name": "vector",
+      "index_type": "AUTOINDEX",
+      "metric_type": "L2",
+      "search_params": {}
+    }
+  },
+  "manifest_format_version": 2,
+  "partitions": {
+    "_default": {
+      "data_files": [
+        "data/data_000001_000243.parquet"
+      ],
+      "delta_files": []
+    }
+  },
+  "schema_version": 1,
+  "version": 3
+}
